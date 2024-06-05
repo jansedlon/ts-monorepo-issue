@@ -9,6 +9,10 @@
       "./zod/base": {
         "types": "./dist/src/zod/base.d.ts",
         "import": "./dist/src/zod/base.js"
+      },
+      "./zod": {
+        "types": "./dist/src/zod/index.d.ts",
+        "import": "./dist/src/zod/index.js"
       }
     },
     "scripts": {
