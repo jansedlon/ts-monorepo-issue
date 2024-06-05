@@ -1,0 +1,9 @@
+{
+    "extends": "@ts-monorepo/typescript-config/tsconfig.json",
+    "exclude": ["**/node_modules", "**/.*/", "dist"],
+    "include": ["src"],
+    "compilerOptions": {
+      "outDir": "dist"
+    }
+  }
+  

@@ -1,0 +1,8 @@
+{
+    "name": "@ts-monorepo/typescript-config",
+    "version": "0.0.0",
+    "private": true,
+    "sideEffects": false,
+    "files": ["tsconfig.json"]
+  }
+  

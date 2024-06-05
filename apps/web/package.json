@@ -1,0 +1,12 @@
+{
+    "name": "@ts-monorepo/web",
+  "private": true,
+  "sideEffects": false,
+  "type": "module",
+  "scripts": {
+    "dev": "tsc --watch"
+  },
+  "dependencies": {
+    "@ts-monorepo/validation": "workspace:*"
+  }
+}

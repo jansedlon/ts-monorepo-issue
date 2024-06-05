@@ -1,0 +1,17 @@
+{
+    "$schema": "https://json.schemastore.org/tsconfig",
+    "extends": ["@ts-monorepo/typescript-config/tsconfig.json"],
+    "include": ["**/*.ts", "**/*.tsx"],
+    "exclude": ["**/node_modules", "**/.*/"],
+    "compilerOptions": {
+      "jsx": "react-jsx",
+      "module": "ESNext",
+      "moduleResolution": "Bundler",
+      "resolveJsonModule": true,
+      "target": "ES2020",
+      "allowImportingTsExtensions": true,
+      // Remix takes care of building everything in `remix build`.
+      "noEmit": true
+    }
+  }
+  
